@@ -8,7 +8,7 @@ if strl == "all" then
 for i,v in pairs(game:GetService("Players"):GetPlayers()) do
 table.insert(Found,v)
 end
-elseif strl == "others" then
+elseif strl == "random" then
 for i,v in pairs(game:GetService("Players"):GetPlayers()) do
 if v.Name ~= lplayer.Name then
 table.insert(Found,v)
